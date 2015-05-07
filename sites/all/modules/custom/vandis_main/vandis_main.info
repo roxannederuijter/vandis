@@ -1,0 +1,4 @@
+name = vandis
+description = Main module for vandis
+package = vandis
+core = 7.x

@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * Implements hook_kw_manifests_info().
+ */
+function vandis_main_kw_manifests_info() {
+
+  $manifests['production_analytics_manifest'] = array(
+    'callback' => 'vandis_main_manifest_production_analytics_manifest',
+    'require environment' => array('production')
+  );
+
+  $manifests['development_error_manifest'] = array(
+    'callback' => 'vandis_main_manifest_development_error_manifest',
+    'require environment' => array('development', 'staging')
+  );
+  $manifests['production_error_manifest'] = array(
+    'callback' => 'vandis_main_manifest_production_error_manifest',
+    'require environment' => array('production')
+  );
+
+  $manifests['development_cache_manifest'] = array(
+    'callback' => 'vandis_main_manifest_development_cache_manifest',
+    'require environment' => array('development', 'staging')
+  );
+  $manifests['production_cache_manifest'] = array(
+    'callback' => 'vandis_main_manifest_production_cache_manifest',
+    'require environment' => array('production')
+  );
+  $manifests['development_enmail_manifest'] = array(
+    'callback' => 'vandis_main_manifest_development_email_manifest',
+    'require environment' => array('development', 'staging')
+  );
+
+  $manifests['production_email_manifest'] = array(
+    'callback' => 'vandis_main_manifest_production_email_manifest',
+    'require environment' => array('production')
+  );
+  $manifests['vandis_main_manifest_settings'] = array(
+    'callback' => 'vandis_main_manifest_settings',
+  );
+
+  $manifests['vandis_main_manifest_blocks'] = array(
+    'callback' => 'vandis_main_manifest_blocks',
+  );
+
+  return $manifests;
+}
+
+
+
+
+
+
+

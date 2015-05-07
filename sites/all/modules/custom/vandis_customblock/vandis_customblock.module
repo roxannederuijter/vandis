@@ -1,0 +1,125 @@
+<?php
+
+
+
+
+/* function in settings zetten */
+
+function vandis_customblock_vandis_main_settings_fields() {
+
+  $form['vandis_contact'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Contact settings'),
+    '#description' => t('vandis contact settings'),
+    '#collapsible' => TRUE,
+    '#collapsed' => TRUE,
+  );
+
+
+  $form['vandis_contact']['vandis_place'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Place Settings'),
+    '#description' => t('vandis place'),
+    '#collapsible' => FALSE,
+    '#collapsed' => FALSE,
+  );
+
+  $text = variable_get('vandis_contact_place');
+  if (is_string($text)) {
+    $text = array('value' => $text, 'format' => 'full_html');
+  }
+
+  $form['vandis_contact']['vandis_place']['vandis_contact_place'] = array(
+    '#type' => 'textfield',
+    '#title' => t('place'),
+    '#default_value' => $text['value'],
+    '#description' => t('place'),
+  );
+
+  $form['vandis_contact']['vandis_phone'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('Phone Settings'),
+    '#description' => t('vandis phone'),
+    '#collapsible' => FALSE,
+    '#collapsed' => FALSE,
+  );
+
+  $text = variable_get('vandis_contact_phone');
+  if (is_string($text)) {
+    $text = array('value' => $text, 'format' => 'full_html');
+  }
+
+  $form['vandis_contact']['vandis_phone']['vandis_contact_phone'] = array(
+    '#type' => 'textfield',
+    '#title' => t('phone'),
+    '#default_value' => $text['value'],
+    '#description' => t('phone'),
+  );
+  $form['vandis_contact']['vandis_email'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('email Settings'),
+    '#description' => t('vandis email'),
+    '#collapsible' => FALSE,
+    '#collapsed' => FALSE,
+  );
+
+  $text = variable_get('vandis_contact_email');
+  if (is_string($text)) {
+    $text = array('value' => $text, 'format' => 'full_html');
+  }
+
+  $form['vandis_contact']['vandis_email']['vandis_contact_email'] = array(
+    '#type' => 'textfield',
+    '#title' => t('email'),
+    '#default_value' => $text['value'],
+    '#description' => t('email'),
+  );
+
+
+  return $form;
+}
+
+
+/* einde settingsblock */
+
+/* block in panelizer zetten */
+
+/**
+ * Implementation of hook_block_info().
+ */
+function vandis_customblock_block_info() {
+  $blocks['contact_block'] = array(
+    'info' => t('vandis contact Block'),
+  );
+
+  return $blocks;
+}
+
+
+function vandis_customblock_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+
+    case 'contact_block':
+      $block['subject'] = '';
+      $block['content'] = _contact_block();
+      $block['cache'] = DRUPAL_CACHE_GLOBAL;
+      break;
+  }
+  return $block;
+}
+
+
+function _contact_block() {
+  $tekst = variable_get('vandis_contact_place');
+  $tekst1 = variable_get('vandis_contact_phone');
+  $tekst2 = variable_get('vandis_contact_email');
+  $output = '<hr><div class="place"><div class="location"></div>' . $tekst
+    . '</div><div class="telephone"><div class="mobile"></div>' . $tekst1
+    . '</div><div class="mail"><div class="envelope"></div>' . $tekst2
+    . '</div>';
+
+  return $output;
+}
+
+

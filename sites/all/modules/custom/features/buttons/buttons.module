@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the buttons feature.
+ */
+
+include_once 'buttons.features.inc';

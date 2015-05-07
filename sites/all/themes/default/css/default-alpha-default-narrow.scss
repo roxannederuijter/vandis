@@ -1,0 +1,92 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+
+
+.ds-2col > .group-right {
+  float: center;
+  width: 80% !important;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+
+.ds-2col > .group-left {
+  float: center;
+  width: 20% !important;
+  text-align: center;
+  margin-left: 0%;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+
+.field-name-field-paragraph-s,
+.paragraphs-item-1-kolom-afbeelding,
+.paragraphs-item-1-kolom-tekst,
+.paragraphs-item-2-kolommen-afbeeldingen,
+.paragraphs-item-2-kolommen-tekst,
+.paragraphs-item-2-kolommen-tekst-afbeelding-link,
+.paragraphs-item-2-kolommen-tekst-afbeelding-rech {
+  float: left;
+  width: 100%;
+  .ds-2col > .group-left,
+  .ds-2col > .group-right {
+
+  }
+  .ds-2col > .group-left {
+
+  }
+}
+
+body {
+
+}
+
+.bean-buttons {
+  text-align: center;
+  img {
+    margin-bottom: 10px;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+  div {
+    font-weight: 700;
+    font-size: 0.938em;
+  }
+}
+
+.zone-postscript-wrapper {
+  .views-slideshow-controls-bottom {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+  }
+
+  .views-slideshow-controls-text-previous {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 57px;
+    background: url("img/left-arrow.png") no-repeat;
+    background-size: 32px 57px;
+    text-indent: -99999px;
+    color: #444;
+    left: -7%;
+    float: left;
+  }
+
+  .views-slideshow-controls-text-next {
+    position: relative;
+    display: block;
+    width: 32px;
+    height: 57px;
+    background: url('img/right-arrow.png') no-repeat;
+    background-size: 32px 57px;
+    text-indent: -99999px;
+    color: #444;
+    right: -77%;
+    float: left;
+  }
+}
