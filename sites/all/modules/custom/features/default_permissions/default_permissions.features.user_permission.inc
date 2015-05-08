@@ -613,13 +613,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'create slideshow content'.
-  $permissions['create slideshow content'] = array(
-    'name' => 'create slideshow content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'create url aliases'.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
@@ -698,13 +691,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'delete any slideshow content'.
-  $permissions['delete any slideshow content'] = array(
-    'name' => 'delete any slideshow content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'delete any video files'.
   $permissions['delete any video files'] = array(
     'name' => 'delete any video files',
@@ -743,13 +729,6 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'delete own page content'.
   $permissions['delete own page content'] = array(
     'name' => 'delete own page content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own slideshow content'.
-  $permissions['delete own slideshow content'] = array(
-    'name' => 'delete own slideshow content',
     'roles' => array(),
     'module' => 'node',
   );
@@ -895,13 +874,6 @@ function default_permissions_user_default_permissions() {
     'module' => 'node',
   );
 
-  // Exported permission: 'edit any slideshow content'.
-  $permissions['edit any slideshow content'] = array(
-    'name' => 'edit any slideshow content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
   // Exported permission: 'edit any video files'.
   $permissions['edit any video files'] = array(
     'name' => 'edit any video files',
@@ -958,13 +930,6 @@ function default_permissions_user_default_permissions() {
   // Exported permission: 'edit own page content'.
   $permissions['edit own page content'] = array(
     'name' => 'edit own page content',
-    'roles' => array(),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own slideshow content'.
-  $permissions['edit own slideshow content'] = array(
-    'name' => 'edit own slideshow content',
     'roles' => array(),
     'module' => 'node',
   );
