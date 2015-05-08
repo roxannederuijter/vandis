@@ -1,0 +1,4 @@
+name = view_project
+core = 7.x
+package = Views
+features[features_api][] = api:2

@@ -10,6 +10,7 @@ dependencies[] = node
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = uh_views_responsive
+dependencies[] = view_project
 dependencies[] = views
 dependencies[] = views_slideshow
 dependencies[] = views_slideshow_cycle
