@@ -12,23 +12,23 @@ function default_block_settings_default_fe_block_settings() {
 
   $export['version'] = '2.0';
 
-  $export['bean-advies'] = array(
+  $export['bean-advies-0'] = array(
     'cache' => 1,
     'custom' => 0,
-    'delta' => 'advies',
+    'delta' => 'advies-0',
     'module' => 'bean',
     'node_types' => array(),
     'pages' => '',
     'roles' => array(),
     'themes' => array(
       'default' => array(
-        'region' => 'preface_third',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'default',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
