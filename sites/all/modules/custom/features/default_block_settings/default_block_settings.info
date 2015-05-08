@@ -41,5 +41,5 @@ features[fe_block_settings][] = user-new
 features[fe_block_settings][] = user-online
 features[fe_block_settings][] = vandis_customblock-contact_block
 features[fe_block_settings][] = views-view_slideshow-block
-features[fe_block_settings][] = webform-client-block-4
+features[fe_block_settings][] = webform-client-block-8
 features[features_api][] = api:2

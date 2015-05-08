@@ -47,7 +47,6 @@ features[variable][] = pathauto_max_component_length
 features[variable][] = pathauto_max_length
 features[variable][] = pathauto_node_page_pattern
 features[variable][] = pathauto_node_pattern
-features[variable][] = pathauto_node_webform_pattern
 features[variable][] = pathauto_punctuation_ampersand
 features[variable][] = pathauto_punctuation_asterisk
 features[variable][] = pathauto_punctuation_at

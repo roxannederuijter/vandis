@@ -592,10 +592,10 @@ function default_block_settings_default_fe_block_settings() {
     'visibility' => 0,
   );
 
-  $export['webform-client-block-4'] = array(
+  $export['webform-client-block-8'] = array(
     'cache' => -1,
     'custom' => 0,
-    'delta' => 'client-block-4',
+    'delta' => 'client-block-8',
     'module' => 'webform',
     'node_types' => array(),
     'pages' => '',
