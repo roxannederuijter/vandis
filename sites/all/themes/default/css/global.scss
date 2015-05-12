@@ -286,9 +286,10 @@ ul#superfish-1 {
     margin: 0;
     padding: 0;
     a {
-      margin: 50px 0 50px 0;
+      margin: 38px 0 19px 0;
       padding: 10px 37px;
       color: #ffffff;
+      font-weight: 600;
     }
   }
 }
@@ -296,7 +297,7 @@ ul#superfish-1 {
 .logo-img {
   margin: 0;
   max-width: 100%;
-  padding: 16px 0 24px 0;
+  padding: 15px 0 15px 0;
 }
 
 .zone-preface {
@@ -452,3 +453,6 @@ hr {
   margin: 28px 0 28px 0;
 }
 
+.block-superfish {
+  float: right;
+}
