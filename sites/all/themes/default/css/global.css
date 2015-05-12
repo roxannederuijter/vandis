@@ -331,6 +331,11 @@ ul#superfish-1 {
 #node-webform-8 {
   text-align: center;
   padding-top: 64px; }
+
+#node-webform-8 .field-name-field-body {
+    width: 80%;
+    margin: 0 auto;
+}
   #node-webform-8 p {
     color: #ffffff; }
 
