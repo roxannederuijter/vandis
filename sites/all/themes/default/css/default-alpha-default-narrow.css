@@ -30,6 +30,24 @@
     width: 100%;
 }
 
+#superfish-1-select {
+    width: 100%;
+    border-radius: 0;
+    padding-left: 40px;
+    background: #393939 url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+    border: #ccc;
+    background-size: 20px;
+    color: #ffffff;
+    margin-top: 28px;
+}
+
+.zone-preface {
+    padding-top: 750px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 88px;
+}
+
 .bean-buttons {
     text-align: center;
 }
@@ -43,6 +61,14 @@
 .bean-buttons div {
     font-weight: 700;
     font-size: 0.938em;
+}
+
+.zone-branding-wrapper {
+    background-color: #393939;
+}
+
+.zone-branding-wrapper img {
+    max-width: 100%;
 }
 
 .zone-postscript-wrapper .views-slideshow-controls-bottom {

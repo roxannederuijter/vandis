@@ -152,10 +152,10 @@ input[type="button"]:hover,
   width: 100%;
   border-radius: 0;
   padding-left: 40px;
-  background: #fff url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  background: #393939 url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
   border: #ccc;
   background-size: 20px;
-  color: #000;
+  color: #ffffff;
 }
 
 .ds-2col > .group-left {
@@ -192,6 +192,9 @@ input[type="button"]:hover,
 
 .zone-branding-wrapper {
   background-color: #393939;
+  img {
+    max-width: 50%;
+  }
 }
 
 .zone-preface-wrapper {
@@ -231,10 +234,10 @@ input[type="button"]:hover,
   .views-slideshow-controls-text-previous {
     position: relative;
     display: block;
-    width: 32px;
-    height: 57px;
+    width: 24px;
+    height: 42px;
     background: url("img/left-arrow.png") no-repeat;
-    background-size: 32px 57px;
+    background-size: 24px 42px;
     text-indent: -99999px;
     color: #444;
     left: -10%;
@@ -253,10 +256,10 @@ input[type="button"]:hover,
   .views-slideshow-controls-text-next {
     position: relative;
     display: block;
-    width: 32px;
-    height: 57px;
+    width: 24px;
+    height: 42px;
     background: url('img/right-arrow.png') no-repeat;
-    background-size: 32px 57px;
+    background-size: 24px 42px;
     text-indent: -99999px;
     color: #444;
     right: -75%;
@@ -310,7 +313,7 @@ ul#superfish-1 {
 }
 
 .zone-preface {
-  padding-top: 50px;
+  padding-top: 14px;
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 88px;
@@ -321,8 +324,8 @@ ul#superfish-1 {
   margin: 0px 10px;
   img {
     margin-bottom: 10px;
-    max-width: 40%;
-    margin-top: 24px;
+    max-width: 25%;
+    margin-top: 20px;
   }
   div {
     font-weight: 700;
