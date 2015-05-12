@@ -350,31 +350,47 @@ hr {
   margin: 28px 0 28px 0;
 }
 
-.zone-postscript-wrapper {
-
-  .views-slideshow-controls-text-previous {
-    position: relative;
+.zone-postscript-wrapper .views-slideshow-controls-text-previous a {
+  position: absolute;
     display: block;
-    width: 32px;
-    height: 57px;
-    background: url("img/left-arrow.png") no-repeat;
-    background-size: 32px 57px;
-    text-indent: -99999px;
-    color: #444;
-    left: -5%;
-    float: left;
+  top: -50%;
+  background: url("img/left-arrow.png");
+  background-size: contain;
+  width: 26px;
+  height: 47px;
+  text-indent: -9999px;
   }
 
-  .views-slideshow-controls-text-next {
-    position: relative;
-    display: block;
-    width: 32px;
-    height: 57px;
-    background: url('img/right-arrow.png') no-repeat;
-    background-size: 32px 57px;
-    text-indent: -99999px;
-    color: #444;
-    right: -80%;
-    float: left;
-  }
+.zone-postscript-wrapper .views-slideshow-controls-text-previous {
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 0.5%;
+  z-index: 1000;
+}
+
+.zone-postscript-wrapper .views-slideshow-controls-text-next a {
+  position: absolute;
+  display: block;
+  top: -50%;
+  background: url("img/right-arrow.png");
+  background-size: contain;
+  width: 26px;
+  height: 47px;
+  text-indent: -9999px;
+}
+
+.zone-postscript-wrapper .views-slideshow-controls-text-next {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  right: 0.5%;
+  z-index: 1000;
+}
+
+#block-views-view-slideshow-block {
+  width: 100%;
+  margin: 0 auto;
 }
