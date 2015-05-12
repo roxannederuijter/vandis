@@ -383,9 +383,13 @@ input[type=submit] {
   width: 43.3%;
   text-align: center;
   color: white;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Opens Sans', sans-serif;
   font-weight: 600;
   font-size: 0.750em;
+  border-radius: 0px;
+  .fa fa-chevron-right {
+
+  }
 }
 
 h2.node-title {
@@ -406,6 +410,7 @@ footer[class="submitted"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .envelope {
@@ -416,6 +421,7 @@ footer[class="submitted"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .mobile {
@@ -426,6 +432,7 @@ footer[class="submitted"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 .place {

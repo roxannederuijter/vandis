@@ -269,9 +269,11 @@ input[type=submit] {
   width: 21.3%;
   text-align: center;
   color: white;
-  font-family: 'Droid Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  font-size: 0.750em; }
+    font-size: 0.750em;
+    border-radius: 0;
+}
 
 h2.node-title a {
   color: #ffffff; }
