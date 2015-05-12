@@ -293,7 +293,9 @@ ul#superfish-1 {
   padding-bottom: 88px; }
 
 .bean-buttons {
-  text-align: center; }
+    text-align: center;
+    margin: 0px 10px;
+}
   .bean-buttons img {
     margin-bottom: 10px;
     max-width: 40%;
