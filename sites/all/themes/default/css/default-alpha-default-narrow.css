@@ -15,7 +15,7 @@
     width: 20% !important;
     text-align: center;
     margin-left: 0%;
-    padding-top: 45px;
+    padding-top: 20px;
     margin: 0 auto;
 }
 
@@ -50,7 +50,6 @@
     top: 40%;
     width: 100%;
 }
-
 .zone-postscript-wrapper .views-slideshow-controls-text-previous {
     position: relative;
     display: block;
@@ -63,7 +62,6 @@
     left: -7%;
     float: left;
 }
-
 .zone-postscript-wrapper .views-slideshow-controls-text-next {
     position: relative;
     display: block;

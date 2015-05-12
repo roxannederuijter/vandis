@@ -136,7 +136,9 @@ input[type="button"]:hover,
 
 .ds-2col > .group-left {
   float: left;
-  width: 100%; }
+    width: 100%;
+    padding-top: 20px;
+}
 
 .ds-2col > .group-right {
   float: left;
@@ -317,11 +319,12 @@ ul#superfish-1 {
   width: 20% !important;
   text-align: center;
   margin-left: 0%;
-  padding-top: 45px;
   margin: 0 auto; }
 
 .field-name-field-title {
-  color: #ffffff; }
+    color: #ffffff;
+    font-size: 1.500em;
+}
 
 .field-name-field-tekst-rechts {
   color: #ffffff; }
