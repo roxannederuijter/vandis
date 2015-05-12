@@ -263,6 +263,10 @@ input[type="button"]:hover,
     font-size: 1.125em;
 }
 
+.zone-postscript-wrapper .views-field-body {
+    font-size: 0.875em;
+}
+
 .views_slideshow_cycle_main {
   width: 100%;
   float: left;
