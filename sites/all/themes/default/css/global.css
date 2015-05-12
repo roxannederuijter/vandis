@@ -14,7 +14,9 @@ img {
 
 .logo-img {
   margin: 0;
-  max-width: 100%; }
+    max-width: 100%;
+    padding: 15px 0 15px 0;
+}
 
 h1 {
   font-size: 2em;
