@@ -18,10 +18,10 @@ img {
   margin: 0 auto;
 }
 
-.logo-img {
-  margin: 0;
-  max-width: 100%;
-  padding: 15px 0 15px 0;
+.logo-img img {
+  width: 80%;
+  margin-bottom: 10px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -195,6 +195,11 @@ input[type="button"]:hover,
   img {
     max-width: 50%;
   }
+}
+
+#zone-branding-wrapper {
+  z-index: 998;
+  width: 100%;
 }
 
 .zone-preface-wrapper {
@@ -508,4 +513,8 @@ hr {
 #block-views-view-slideshow-block {
   width: 100%;
   margin: 0 auto;
+}
+
+.sticky-wrapper {
+  width: 100%;
 }

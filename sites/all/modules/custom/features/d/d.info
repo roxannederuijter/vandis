@@ -4,6 +4,7 @@ package = Default settings
 dependencies[] = ctools
 dependencies[] = jquery_update
 dependencies[] = strongarm
+dependencies[] = uh_jquery_menu
 features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:2
 features[variable][] = admin_theme
