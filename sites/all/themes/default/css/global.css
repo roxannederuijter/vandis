@@ -13,10 +13,9 @@ img {
   margin: 0 auto; }
 
 .logo-img img {
-    width: 80%;
-    margin-bottom: 10px;
-    margin: 0 auto;
-}
+  width: 80%;
+  margin-bottom: 10px;
+  margin: 0 auto; }
 
 h1 {
   font-size: 2em;
@@ -129,17 +128,15 @@ input[type="button"]:hover,
   width: 100%;
   border-radius: 0;
   padding-left: 40px;
-    background: #393939 url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
+  background: #393939 url("../css/img/hamburger-menu-icon.png") no-repeat 10px center;
   border: #ccc;
   background-size: 20px;
-    color: #ffffff;
-}
+  color: #ffffff; }
 
 .ds-2col > .group-left {
   float: left;
-    width: 100%;
-    padding-top: 20px;
-}
+  width: 100%;
+  padding-top: 20px; }
 
 .ds-2col > .group-right {
   float: left;
@@ -201,15 +198,12 @@ input[type="button"]:hover,
 
 .zone-branding-wrapper {
   background-color: #393939; }
-
-.zone-branding-wrapper img {
-    max-width: 50%;
-}
+  .zone-branding-wrapper img {
+    max-width: 50%; }
 
 #zone-branding-wrapper {
-    z-index: 998;
-    width: 100%;
-}
+  z-index: 998;
+  width: 100%; }
 
 .zone-preface-wrapper {
   background-image: url(img/newbg.png);
@@ -238,12 +232,10 @@ input[type="button"]:hover,
     position: absolute;
     top: 40%;
     width: 100%; }
-
-.zone-postscript-wrapper .views_slideshow_cycle_main .field-content {
+  .zone-postscript-wrapper .views_slideshow_cycle_main .field-content {
     max-width: 80%;
     width: 100%;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
   .zone-postscript-wrapper .views_slideshow_cycle_main .field-content img {
     max-width: 100%;
     width: 100%;
@@ -251,15 +243,11 @@ input[type="button"]:hover,
     margin: 0;
     padding: 0;
     margin-bottom: 30px; }
-
-.zone-postscript-wrapper .views-field-title {
+  .zone-postscript-wrapper .views-field-title {
     font-weight: 600;
-    font-size: 1.125em;
-}
-
-.zone-postscript-wrapper .views-field-body {
-    font-size: 0.875em;
-}
+    font-size: 1.125em; }
+  .zone-postscript-wrapper .views-field-body {
+    font-size: 0.875em; }
 
 .views_slideshow_cycle_main {
   width: 100%;
@@ -281,33 +269,29 @@ ul#superfish-1 {
     margin: 0;
     padding: 0; }
     ul#superfish-1 li a {
-        margin: 38px 0 19px 0;
+      margin: 38px 0 19px 0;
       padding: 10px 37px;
-        color: #ffffff;
-        font-weight: 600;
-    }
+      color: #ffffff;
+      font-weight: 600; }
 
 .logo-img {
   margin: 0;
   max-width: 100%;
-    padding: 15px 0 15px 0;
-}
+  padding: 15px 0 15px 0; }
 
 .zone-preface {
-    padding-top: 14px;
+  padding-top: 14px;
   padding-right: 0;
   padding-left: 0;
   padding-bottom: 88px; }
 
 .bean-buttons {
-    text-align: center;
-    margin: 0px 10px;
-}
+  text-align: center;
+  margin: 0px 10px; }
   .bean-buttons img {
     margin-bottom: 10px;
-      max-width: 25%;
-      margin-top: 20px;
-  }
+    max-width: 25%;
+    margin-top: 20px; }
   .bean-buttons div {
     font-weight: 700; }
 
@@ -326,9 +310,8 @@ ul#superfish-1 {
   margin: 0 auto; }
 
 .field-name-field-title {
-    color: #ffffff;
-    font-size: 1.500em;
-}
+  color: #ffffff;
+  font-size: 1.500em; }
 
 .field-name-field-tekst-rechts {
   color: #ffffff; }
@@ -336,11 +319,9 @@ ul#superfish-1 {
 #node-webform-8 {
   text-align: center;
   padding-top: 64px; }
-
-#node-webform-8 .field-name-field-body {
+  #node-webform-8 .field-name-field-body {
     width: 80%;
-    margin: 0 auto;
-}
+    margin: 0 auto; }
   #node-webform-8 p {
     color: #ffffff; }
 
@@ -362,11 +343,10 @@ input[type=submit] {
   width: 43.3%;
   text-align: center;
   color: white;
-    font-family: 'Opens Sans', sans-serif;
+  font-family: 'Opens Sans', sans-serif;
   font-weight: 600;
-    font-size: 0.750em;
-    border-radius: 0px;
-}
+  font-size: 0.750em;
+  border-radius: 0px; }
 
 h2.node-title a {
   color: #ffffff; }
@@ -381,9 +361,8 @@ footer[class="submitted"] {
   width: 27px;
   display: block;
   margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
+  margin-right: auto;
+  margin-bottom: 20px; }
 
 .envelope {
   background-image: url("img/envelope.png");
@@ -392,9 +371,8 @@ footer[class="submitted"] {
   width: 31px;
   display: block;
   margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
+  margin-right: auto;
+  margin-bottom: 20px; }
 
 .mobile {
   background-image: url("img/mobile.png");
@@ -403,9 +381,8 @@ footer[class="submitted"] {
   width: 28px;
   display: block;
   margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-}
+  margin-right: auto;
+  margin-bottom: 20px; }
 
 .place {
   width: 100%;
@@ -438,56 +415,49 @@ hr {
   margin: 28px 0 28px 0; }
 
 .block-superfish {
-    float: right;
-}
+  float: right; }
 
 .zone-postscript-wrapper .views-slideshow-controls-text-previous a {
-    position: absolute;
-    display: block;
-    top: -50%;
-    background: url("img/left-arrow.png");
-    background-size: contain;
-    width: 19px;
-    height: 35px;
-    text-indent: -9999px;
-}
+  position: absolute;
+  display: block;
+  top: -50%;
+  background: url("img/left-arrow.png");
+  background-size: contain;
+  width: 19px;
+  height: 35px;
+  text-indent: -9999px; }
 
 .zone-postscript-wrapper .views-slideshow-controls-text-previous {
-    width: 42px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 0.5%;
-    z-index: 1000;
-}
+  width: 42px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 0.5%;
+  z-index: 1000; }
 
 .zone-postscript-wrapper .views-slideshow-controls-text-next a {
-    position: absolute;
-    display: block;
-    top: -50%;
-    background: url("img/right-arrow.png");
-    background-size: contain;
-    width: 19px;
-    height: 35px;
-    text-indent: -9999px;
-}
+  position: absolute;
+  display: block;
+  top: -50%;
+  background: url("img/right-arrow.png");
+  background-size: contain;
+  width: 19px;
+  height: 35px;
+  text-indent: -9999px; }
 
 .zone-postscript-wrapper .views-slideshow-controls-text-next {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    right: -2.5%;
-    z-index: 1000;
-}
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  right: -2.5%;
+  z-index: 1000; }
 
 #block-views-view-slideshow-block {
-    width: 100%;
-    margin: 0 auto;
-}
+  width: 100%;
+  margin: 0 auto; }
 
 .sticky-wrapper {
-    width: 100%;
-}
+  width: 100%; }
 
 /*# sourceMappingURL=global.css.map */
